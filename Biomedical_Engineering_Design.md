@@ -1,5 +1,5 @@
-# Design Curriculum for Biomedical Engineers
-- [Design Curriculum for Biomedical Engineers](#design-curriculum-for-biomedical-engineers)
+# Design Components in Biomedical Engineering
+- [Design Components in Biomedical Engineering](#design-components-in-biomedical-engineering)
   - [Student Design Projects](#student-design-projects)
   - [A - Engineering Design Principles](#a---engineering-design-principles)
   - [B - Electrical Design](#b---electrical-design)
