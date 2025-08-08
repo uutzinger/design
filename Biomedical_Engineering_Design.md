@@ -10,7 +10,6 @@
   - [G - Design in Physiology](#g---design-in-physiology)
   - [H - Materials and Biomaterials Design](#h---materials-and-biomaterials-design)
   - [I - Design in Health Sciences](#i---design-in-health-sciences)
-- [](#)
   - [J - Imaging Systems Design](#j---imaging-systems-design)
   - [K - Human-Centered Design and Usability](#k---human-centered-design-and-usability)
   - [L - Regulatory and Quality Design](#l---regulatory-and-quality-design)
@@ -643,8 +642,8 @@ Design of **healthcare workflows**, **clinical interfaces**, and **data manageme
 - **Clinical Safety** – Avoiding harm from device misuse or malfunction.
 - **Infection Control** – Designing for sterilization, disinfection, or disposability.
 
-#
 ---
+
 ## J - Imaging Systems Design
 Design and development of **imaging systems** for biomedical applications, encompassing both **clinical imaging** and **non-clinical imaging**. Focuses on **system physics**, **hardware design**, **signal/data acquisition**, and **image processing** to achieve high-quality, reliable, and safe imaging for diagnosis, therapy, and research.
 
