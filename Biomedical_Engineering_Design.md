@@ -136,7 +136,7 @@ Design and development of **electrical systems** for biomedical devices, encompa
  - Integrity (Decoupling, EMI)
 
 ### B-6 Sensor Interfaces and Signal Acquisition <!-- omit in toc -->
- - Measurement Techniques (e.g. Pressure, Acceleration, Temperature, Chemical, Imaging)
+ - Measurement Techniques (e.g. Pressure, Acceleration, Rotation, Temperature, Electrical Potential, Impedance, Sound, Chemical, Light)
  - Analog Front End (Amplification, Filtering, Isolation)
  - Analog-to-Digital Conversion
  - Noise reduction and filtering
@@ -478,6 +478,7 @@ Design of **systems** that monitor, interface with, support, or replace **physio
 - Use of modeling tools: MATLAB/Simulink, Python, OpenSim, COMSOL
 
 ### G-2 Sensor Placement and Physiological Signal Acquisition <!-- omit in toc -->
+- Sensors mechanisms as described in B-6
 - Surface and implantable electrode placement (e.g., ECG, EMG, EEG, ECoG)
 - Understanding physiological signal characteristics: amplitude, frequency, noise reduction and filtering
 - Artifact suppression and signal conditioning (e.g., motion artifacts, EM interference)
@@ -485,9 +486,8 @@ Design of **systems** that monitor, interface with, support, or replace **physio
 - Sensor placement constraints due to anatomy, motion, and user comfort
 
 ### G-3 Organ Support and Replacement System Design <!-- omit in toc -->
-
 - 🫀 Cardiovascular Support
-    - Heart function (incl. ventricular assist devices (VADs), total artificial hearts, heart valves
+    - Heart function (incl. ventricular assist devices (VADs), total artificial hearts, heart valves)
     - Pacemakers and defibrillators
     - Artificial blood vessels and vascular grafts:
         - Design considerations: compliance matching, thrombosis resistance, anastomosis technique
