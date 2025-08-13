@@ -35,7 +35,7 @@
 Cross-cutting **principles** for medical device development, including **problem definition**, identification of **clinical needs**, and evaluation of **feasibility** and **trade-offs**. Covers **constraints analysis**, **user-centered design**, **risk assessment**, and alignment with **regulatory** and **payer** requirements. Emphasizes **iterative prototyping**, **testing**, and integration of multidisciplinary inputs throughout the design process.
 
 ### A-1 Problem Definition and Requirement Analysis <!-- omit in toc -->
- - Unmet clinical need
+ - Unmet clinical need (problem description)
  - Plausibility (is there evidence that the problem can be addressed)
  - Feasibility (do we have ability to create a solution)
  - User Analysis (intermediate impact on user/patient)
@@ -53,7 +53,7 @@ Cross-cutting **principles** for medical device development, including **problem
 ### A-3 Design Documentation and Communication <!-- omit in toc -->
  - Technical Writing
  - Design Review Presentation
- - Notebook, lab journals, version control
+ - Notebook, Lab Journals, Version Control
  - System Diagram, Specifications
 
 ### A-4 Risk Management and Reliability <!-- omit in toc -->
@@ -63,7 +63,7 @@ Cross-cutting **principles** for medical device development, including **problem
  - Prototyping (rapid)
  - Iteration
  - Specification Validation & Product Verification (V&V)
- - Test plan for validation and verification
+ - Test Plan for V&V
  - Human Subjects Testing
 
 ### A-6 Design for Manufacturability & Assembly<!-- omit in toc -->
@@ -74,13 +74,13 @@ Cross-cutting **principles** for medical device development, including **problem
  - Bill of Materials
 
 ### A-7 Regulatory and Standard Awareness <!-- omit in toc -->
- - Section L
+ - See Section L-1,2
 
 ### A-8 Ethics, Sustainability <!-- omit in toc -->
  - Accessibility and Inclusiveness
  - Environmental Impact
  - Human Subjects Ethics
- - Design for diverse populations
+ - Design for Diverse Populations
 
 ### A-9 Systems Thinking and Integration <!-- omit in toc -->
  - System Interfaces
@@ -89,7 +89,10 @@ Cross-cutting **principles** for medical device development, including **problem
  - System Level Behavior
 
 ### A-10 Value, Reimbursement and Adoption <!-- omit in toc -->
- - stakeholders, procurement, coding/reimbursement basics, total cost of owners
+ - Stakeholders, 
+ - Procurement, 
+ - Coding/Reimbursement Basics, 
+ - Total Cost of Owners
 
 ---
 
@@ -105,13 +108,13 @@ Design and development of **electrical systems** for biomedical devices, encompa
 ### B-2 Analog <!-- omit in toc -->
  - Passive Components
  - Active Components
- - Amplifier
+ - Amplifiers
  - Filtering
- - Noise mitigation (grounding, shielding, filtering)
  - Signal Conditioning
+ - Noise Mitigation (grounding, shielding, filtering)
 
 ### B-3 Digital <!-- omit in toc -->
- - Logic, Truth Table, Combinational, Sequential Circuit
+ - Logic, Truth Table, Combinational and Sequential Circuit
  - Flip Flop, Latches, Timers
  - Microcontrollers
  - Single-board Computers
@@ -123,8 +126,8 @@ Design and development of **electrical systems** for biomedical devices, encompa
 ### B-4 PCB Design and Layout <!-- omit in toc -->
  - Schematic Capture
  - Component Placement
- - Power and Ground Plane 
  - Trace, Via
+ - Power and Ground Plane
 
 ### B-5 Power Systems <!-- omit in toc -->
  - Linear vs Switching
@@ -135,8 +138,8 @@ Design and development of **electrical systems** for biomedical devices, encompa
 
 ### B-6 Sensor Interfaces and Signal Acquisition <!-- omit in toc -->
  - Measurement Techniques for Biomedical Signals
-   - Pressure, (Blood pressure)
-   - Acceleration, Rotation, (Activity)
+   - Pressure, (blood pressure)
+   - Acceleration, Rotation, (activity)
    - Temperature
    - Electrical Potential (ECG, EMG)
    - Impedance
@@ -145,8 +148,8 @@ Design and development of **electrical systems** for biomedical devices, encompa
    - Light (pulse oximetery, camera)
  - Analog Front End (Amplification, Filtering, Isolation)
  - Analog-to-Digital Conversion
- - Noise reduction and filtering
- - Sensor fusion
+ - Noise Reduction and Filtering
+ - Sensor Fusion
 
 ### B-7 Control and Feedback <!-- omit in toc -->
  - Closed Loop Control Basics
@@ -162,7 +165,7 @@ Design and development of **electrical systems** for biomedical devices, encompa
  - Mechanical Shock Protection
 
 ### B-9 Test and Debugging <!-- omit in toc -->
- - Multimeter, Oscilloscope, Function Generator
+ - Multimeter, Oscilloscope, Function Generator, Programmable Power Supply
  - Test Protocol and Test Points
  - In Circuit Debugging
  - Bench level EMC/EMI de-risk (60601-1-2)
@@ -173,7 +176,7 @@ Design and development of **electrical systems** for biomedical devices, encompa
 Design and development of **software systems** for biomedical devices and health applications, from **embedded firmware** to full-scale clinical platforms. Includes **signal processing**, **real-time control**, **communication protocols**, **UI/UX design** for medical interfaces, and secure **data handling**. Emphasizes **safety-critical coding practices**, **regulatory compliance**, and **integration with hardware** and clinical workflows.
 
 ### C-1 Software Requirements and Specifications <!-- omit in toc -->
- - Section A
+ - See Section A
 
 ### C-2 Programming Fundamentals <!-- omit in toc -->
  - Embedded Systems Programming (C, Rust)
@@ -188,7 +191,7 @@ Design and development of **software systems** for biomedical devices and health
  - Producer, Consumer
 
 ### C-4 Embedded and Realtime Software <!-- omit in toc -->
- - Working with microcontroller
+ - Working with Microcontroller
  - Bare Metal Programming
  - Timing Critical Design
  - Power Management
@@ -196,8 +199,8 @@ Design and development of **software systems** for biomedical devices and health
 
 ### C-5 Signal Processing and Data Acquisition <!-- omit in toc -->
  - IIR, FIR and Windowing
- - FFT and spectral analysis
- - Feature extraction (ECG)
+ - FFT and Spectral Analysis
+ - Feature Extraction (ECG)
  - Digital Integration with AFE
  - Sampling Theory
 
@@ -206,7 +209,7 @@ Design and development of **software systems** for biomedical devices and health
  - **Visualization, Plotting**
  - **Feedback and Status Indicators**
  - **Touch and Voice** Interface
- - K-5 Clinical Relevance
+ - Section K-5 for Clinical Relevance
 
 ### C-7 Communication and Interfacing <!-- omit in toc -->
  - **Serial**
@@ -215,20 +218,19 @@ Design and development of **software systems** for biomedical devices and health
    - I2C
    - SPI
    - CAN
- - **BLE, Wi-Fi, wired**
- - Parsing and handling binary
+ - **BLE, Wi-Fi, Wired**
+ - Parsing and handling binary data
  - Client/Server Architecture
  - **Secure Data Transmission** – Encryption in transit (TLS) and at rest.
 
-
 ### C-8 Data Handling and Storage <!-- omit in toc -->
  - Structured Data (JSON, Protocol Buffers)
- - Realtime logging and buffering
- - Data integrity (CRC, journaling)
- - Database integration
+ - Realtime Logging and Buffering
+ - Data Integrity (CRC, journaling)
+ - Database Integration
 
 ### C-9 Testing and Debugging <!-- omit in toc -->
- - Unit testing
+ - Unit Testing
  - Integration and System Testing
  - Realtime Debugging
  - Simulators
@@ -237,7 +239,7 @@ Design and development of **software systems** for biomedical devices and health
  - Git
  - Code Documentation
  - Issue Tracking
- - **Lifecycle and Quality**: Continuous Integration, code review, static analysis, test coverage, and a pointer to IEC 62304 awareness
+ - **Lifecycle and Quality**: Continuous Integration, code review, static analysis, test coverage, IEC 62304 awareness
 
 ### C-11 Machine Learning and Artificial Intelligence (AI) <!-- omit in toc -->
  - Preprocessing for ML pipelines
@@ -265,40 +267,39 @@ Design, analysis, and fabrication of **mechanical systems** for biomedical appli
 
 ### D-3 Material Selection <!-- omit in toc -->
  - Properties: Tensile Strength, Modulus, Hardness, Fatigue
- - Compatibility with biological tissues
+ - Compatibility with Biological Tissues
  - Plastic, Metals, Ceramics, Elastomers
- - Tradeoffs
+ - Material Tradeoffs
 
 ### D-4 Prototyping and Fabrication <!-- omit in toc -->
  - **Processing Techniques** 
    - Casting, Molding, Forming
-   -  Machining, 
-     - Laser cutting
-     - CNC machining
-     - Manual: Cutting, Drilling, Tapping, Assembling
+   -  Machining
+      - Laser cutting
+      - CNC machining
+      - Manual: Cutting, Drilling, Tapping, Assembling
    -  Additive manufacturing, Extrusion, Sintering  
-      - 3D printing
-   - Machining
-- **Joining Methods** – Welding, Adhesive bonding, Press-fit assembly  
-- **Dimensional Stability** – Shrinkage, warping, thermal expansion  
-- **Integration with Electronics** – Encapsulation, hermetic sealing, feedthroughs
+       - 3D printing
+ - **Joining Methods** – Welding, Adhesive bonding, Press-fit assembly  
+ - **Dimensional Stability** – Shrinkage, Warping, Thermal Expansion  
+ - **Integration with Electronics** – Encapsulation, hermetic sealing, feedthroughs
 
 ### D-5 Fasteners and Joints <!-- omit in toc -->
  - Screw, Bolt, Pin
  - Press Fits, Snap Fits, Interference fits
  - Welding, Soldering, Adhesive Bonding
- - Quick release, tool free Assembly
+ - Quick release, Tool free Assembly
 
 ### D-6 Mechanism Design <!-- omit in toc -->
- - Linkages, cams, gears, levers
- - Linear and rotary motion conversion
-   -  Slide-crank
-   -  Four-bar link
- - Spring, dampers and actuators
+ - Linkages, Cams, Gears, Levers
+ - Linear and Rotary Motion Conversion
+   - Slide-crank
+   - Four-bar link
+ - Spring, Dampers and Actuators
 
 ### D-7 Fluid Systems <!-- omit in toc -->
- - Flow path for gas, liquids
- - Fluid resistance, laminar, turbulent flow
+ - Flow Path for Gas, Liquids
+ - Fluid Resistance, Laminar and Turbulent flow
  - Pump and Valves
 
 ### D-8 Thermal Systems <!-- omit in toc -->
@@ -307,21 +308,21 @@ Design, analysis, and fabrication of **mechanical systems** for biomedical appli
  - Combustion
 
 ### D-9 Structural Stress Analysis <!-- omit in toc -->
- - Free body diagrams and calculations
- - Stress, strain, deformation
+ - Free Body Diagrams and Calculations
+ - Stress, Strain, Deformation
  - Factor of Safety and Fatigue
- - Simple beam, truss, shaft loading
+ - Simple Beam, Truss, shaft Loading
  - Buckling, Torsion in slender elements
 
 ### D-10 Finite Element Analysis <!-- omit in toc -->
- - Mesh creation and refinement
+ - Mesh Creation and Refinement
  - Boundary conditions and loads
  - Static, Dynamic and Thermal Simulations
  - Interpreting and Validating Simulations
 
 ### D-11 Ergonomics <!-- omit in toc -->
- - Comfort, adjustment, accessibility
-- **Anthropometric Data Use** – Designing to fit human size ranges (e.g., 5th to 95th percentile).
+ - Comfort, Adjustment, Accessibility
+- **Anthropometric Data Use** – Designing to fit human size ranges (5th to 95th percentile).
 - **Posture and Reach** – Minimizing strain, optimizing control placement.
 - **Grip and Force Requirements** – Ensuring comfortable operation for intended user population.
 - **Long-Term Use Comfort** – Especially critical for wearables or implantables.
@@ -330,18 +331,18 @@ Design, analysis, and fabrication of **mechanical systems** for biomedical appli
 ### D-12 Enclosures and Packaging <!-- omit in toc -->
  - Environmental Sealing
  - Shielding from EMI, impact and thermal exposure
- - Section H-1 Sterilization Compatibility
- - Secion L-2 Design Transfer 
  - Aesthetics and Functional Considerations
+ - Section H-1 Sterilization Compatibility
+ - Secion L-2 Design Transfer
 
 ### D-13 Biomechanics and Implant Design <!-- omit in toc -->
- - Load transfer (bone, muscle, soft tissue)
- - Joint mechanics, prosthetics alignment
+ - Load Transfer (bone, muscle, soft tissue)
+ - Joint Mechanics, Prosthetics Alignment
  - Orthopedic and Dental Implants
 
 ### D-14 Documentation and Standards <!-- omit in toc -->
- - Design Revision tracking and part numbering
- - Medical device standards
+ - Design Revision Tracking and Part Numbering
+ - Medical Device Standards
  - Drawing Compliance
  - Section H-1 and L-2 Design Transfer
 
@@ -495,9 +496,9 @@ Design and engineering of **biological systems** at the cellular and molecular l
 Design of **systems** that monitor, interface with, support, or replace **physiological functions**, including **organ systems**, **neural pathways**, and **musculoskeletal structures**. Involves **physiological modeling**, **sensor placement**, and **signal/data acquisition** for diagnostics, therapy, and restoration of function. Covers **prosthetics**, **artificial blood vessels**, **nerve repair**, **joint and bone repair**, **brain–machine interfaces**, and **rehabilitation technologies**. Emphasizes **patient safety**, **functional integration**, and **clinical applicability**.
 
 ### G-1 Physiological System Modeling <!-- omit in toc -->
-- Block diagram representation of organ systems (e.g., cardiovascular, renal, respiratory)
-- Compartment models for fluid, drug, and solute transport (e.g., for dialysis or glucose dynamics)
-- Simulation of physiological control loops (e.g., baroreflex, respiratory rate, thermoregulation)
+- Block Diagram representation of organ systems (e.g., cardiovascular, renal, respiratory)
+- Compartment Models for fluid, drug, and solute transport (e.g., for dialysis or glucose dynamics)
+- Simulation of Physiological Control Loops (e.g., baroreflex, respiratory rate, thermoregulation)
 - Use of modeling tools: MATLAB/Simulink, Python, OpenSim, COMSOL
 
 ### G-2 Sensor Placement and Physiological Signal Acquisition <!-- omit in toc -->
@@ -543,7 +544,7 @@ Design of **systems** that monitor, interface with, support, or replace **physio
     - Modeling of glucose-insulin dynamics
     - Hormone delivery systems with time-release mechanisms
 
-### G-4 Designing for anatomical fit and physiological compliance <!-- omit in toc -->
+### G-4 Designing for Anatomical Fit and Physiological Compliance <!-- omit in toc -->
 - Ergonomics for wearable/implantable devices
 - Long-term biocompatibility and immune response mitigation
 - User interaction with therapeutic systems (e.g., alarms, displays, interface)
@@ -653,7 +654,7 @@ Design of **healthcare workflows**, **clinical interfaces**, and **data manageme
 - **Integration with Health Policy** – Presenting model outputs for decision-makers in usable formats.
 
 ### I-3. Security <!-- omit in toc -->
-- Section L-1
+- Section L-1 Regulatory Framework
 - Section C-7 Secure Data Transmission
 
 ### I-5. Safety & Risk Management <!-- omit in toc -->
@@ -677,8 +678,8 @@ Design and development of **imaging systems** for biomedical applications, encom
   - Point spread and transfer functions
   - Reconstruction techniques
   - Spatial sampling and sampling in frequency space
-- **Sensor and detector design**
-- **Calibration** and **quality assurance** protocols  
+- **Sensor and Detector Design**
+- **Calibration** and **Quality Assurance** protocols  
 - Integration with **data acquisition** and **analysis pipelines**  
 - Designing for **ergonomic operation** and **environmental constraints**  
 
@@ -689,18 +690,18 @@ Design and development of **imaging systems** for biomedical applications, encom
   - Magnetic Resonance Imaging (**Magnetic Resonance Imaging (MRI)**)
   - Ultrasound
   - Nuclear medicine (PET, SPECT)
-- **Signal processing for clinical system**:
+- **Signal Processing for Clinical Aystem**:
   - Signal acquisition
   - Image reconstruction algorithms
   - Artifact reduction
-- **Image quality optimization**
+- **Image Quality Optimization**
 - Compliance with **safety standards** and **regulatory requirements**
 - Integration with **hospital Picture Archiving and Communication System (PACS)** and **Electronic Medical Record (EMR) systems**
 - Section I-1 **Clinical Workflow Integration**
 
 ### J-3 Non-Clinical Imaging Systems Design <!-- omit in toc -->
 - **Non-Clinical Systems**:
-  - Macroscopy (including small animal observation)
+  - Macroscopy (incl. small animal observation)
   - Microscopy
   - Fluorescence imaging
   - Nanoscopy (including electron microscopy)
@@ -711,7 +712,7 @@ Design and development of **imaging systems** for biomedical applications, encom
   - Resolution enhancement
   - Contrast methods
   - Automation
-- Integration with **analytical and image analysis software**
+- Integration with **Analytical and Image Analysis Software**
 
 ---
 
@@ -752,29 +753,29 @@ Design with a **human-centered approach** focusing on **accessibility**, **ergon
 Design for **regulatory compliance** and **quality management** in biomedical engineering. Involves meeting requirements for **United States Food and Drug Administration (FDA)/Conformité Européenne (CE) marking**, adherence to **ISO 13485**, and **design controls** under 21 CFR Part 820. Emphasizes **risk management**, **documentation**, and **verification** to ensure safe and effective products.
 
 ### L-1. Regulatory Frameworks <!-- omit in toc -->
-- **United States** – FDA regulations, especially **21 CFR Part 820** (Quality System Regulation).
-  -  - Medical Device Classes
-- **Europe** – EU Medical Device Regulation (MDR) and In Vitro Diagnostic Regulation (IVDR), **CE Marking** requirements.
-- **International** – ISO 13485 (Quality Management Systems), ISO 14971 (Risk Management).
-- **Other Markets** – Japan PMDA, Health Canada, TGA (Australia).
-- **Regulatory Compliance** – HIPAA (US), GDPR (EU), and local privacy laws.
-- **Data Anonymization & De-identification** – Removing or masking personal identifiers.
-- **Security**
-  - **Access Control** – Role-based permissions, audit logging.
-  - **Cybersecurity in Healthcare** – Threat modeling, intrusion detection, incident response.
+ - **United States** – FDA regulations, especially **21 CFR Part 820** (Quality System Regulation).
+   - Medical Device Classes
+ - **Europe** – EU Medical Device Regulation (MDR) and In Vitro Diagnostic Regulation (IVDR), **CE Marking** requirements.
+ - **International** – ISO 13485 (Quality Management Systems), ISO 14971 (Risk Management).
+ - **Other Markets** – Japan PMDA, Health Canada, TGA (Australia).
+ - **Regulatory Compliance** – HIPAA (US), GDPR (EU), and local privacy laws.
+ - **Data Anonymization & De-identification** – Removing or masking personal identifiers.
+ - **Security**
+   - **Access Control** – Role-based permissions, audit logging.
+   - **Cybersecurity in Healthcare** – Threat modeling, intrusion detection, incident response.
 
 ### L-2. Design Controls (per 21 CFR 820.30) <!-- omit in toc -->
-- **Design and Development Planning** – Documented plan with deliverables and timelines.
-- **Design Inputs** – Clear, measurable requirements based on user needs and intended use.
-- **Design Outputs** – Drawings, specifications, and manufacturing instructions meeting inputs.
-- **Design Review** – Formal checkpoints to evaluate progress and compliance.
-- **Design Verification** – Confirm design outputs meet input requirements.
-- **Design Validation** – Confirm device meets user needs and intended use.
-- **Design Transfer** – Hand-off to manufacturing with complete, controlled documentation.
-- **Design Changes** – Formal change control process with impact analysis.
-- **Usability Engineering Files** (UEF)- Section K-2 for methods and datacollection
-- **Use Related Risk Analysis** (URRA) — see Section K for identification and evaluation of use errors; see L-4 for integration into overall risk 
-- 
+ - **Design and Development Planning** – Documented plan with deliverables and timelines.
+ - **Design Inputs** – Clear, measurable requirements based on user needs and intended use.
+ - **Design Outputs** – Drawings, specifications, and manufacturing instructions meeting inputs.
+ - **Design Review** – Formal checkpoints to evaluate progress and compliance.
+ - **Design Verification** – Confirm design outputs meet input requirements.
+ - **Design Validation** – Confirm device meets user needs and intended use.
+ - **Design Transfer** – Hand-off to manufacturing with complete, controlled documentation.
+ - **Design Changes** – Formal change control process with impact analysis.
+ - **Usability Engineering Files** (UEF)- Section K-2 for methods and datacollection
+ - **Use Related Risk Analysis** (URRA) — see Section K for identification and evaluation of use errors; see L-4 for integration into overall risk 
+ 
 ### L-3. Quality Management System (QMS) <!-- omit in toc -->
 - **Document Control** – Managing SOPs, work instructions, records.
 - **Training and Competency Records** – Ensuring personnel are trained for their roles.
@@ -783,23 +784,22 @@ Design for **regulatory compliance** and **quality management** in biomedical en
 - **Supplier Management** – Qualification, monitoring, and control of external suppliers.
 
 ### L-4. Risk Management <!-- omit in toc -->
-- **Hazard Analysis** (pysicial, electrical, chemical, biological)
-   - **ISO 14971 Compliance** – Risk analysis, evaluation, control, and residual risk assessment.
-   - **Clinical Safety**
-   - **Infection Control** – Designing for sterilization, disinfection, or disposability.
-- **Hazard Analysis Techniques** – FMEA, FTA, hazard analysis tables.
-- **Benefit-Risk Analysis** – Demonstrating that benefits outweigh residual risks.
+ - **Hazard Analysis** (pysicial, electrical, chemical, biological)
+    - **ISO 14971 Compliance** – Risk analysis, evaluation, control, and residual risk assessment.
+    - **Clinical Safety**
+    - **Infection Control** – Designing for sterilization, disinfection, or disposability.
+ - **Hazard Analysis Techniques** – FMEA, FTA, hazard analysis tables.
+ - **Benefit-Risk Analysis** – Demonstrating that benefits outweigh residual risks.
  - Risk prioritization and mitigation
  - Redundancy, Safety Margin, Robustness (Meantime between failure)
  - Tolerance and Uncertainty
 
-
 ### L-5. Clinical Evaluation & Post-Market Surveillance <!-- omit in toc -->
-- **Clinical Evaluation Reports (CER)** – Required for CE Marking.
-- **Post-Market Surveillance (PMS)** – Monitoring device performance after release.
-- **Vigilance Reporting** – Reporting adverse events to authorities (MDR, FDA).
+ - **Clinical Evaluation Reports (CER)** – Required for CE Marking.
+ - **Post-Market Surveillance (PMS)** – Monitoring device performance after release.
+ - **Vigilance Reporting** – Reporting adverse events to authorities (MDR, FDA).
 
 ### L-6. Regulatory Submissions <!-- omit in toc -->
-- **United States** – 510(k), De Novo, PMA applications.
-- **Europe** – Technical File / Design Dossier for CE Marking.
-- **Documentation Requirements** – Device description, labeling, risk analysis, testing data, manufacturing processes.
+ - **United States** – 510(k), De Novo, PMA applications.
+ - **Europe** – Technical File / Design Dossier for CE Marking.
+ - **Documentation Requirements** – Device description, labeling, risk analysis, testing data, manufacturing processes.
