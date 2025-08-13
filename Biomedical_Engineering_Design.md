@@ -151,12 +151,19 @@ Design and development of **electrical systems** for biomedical devices, encompa
  - Noise Reduction and Filtering
  - Sensor Fusion
 
-### B-7 Control and Feedback <!-- omit in toc -->
+### B-7 Actuators <!-- omit in toc -->
+ - DC Motor
+ - Stepper Motor
+ - AC Motor (synchronous, asynchronous)
+ - BLDC (brushless DC motors)
+ - PMSM (permanent magnet synchornous motors)
+
+### B-8 Control and Feedback <!-- omit in toc -->
  - Closed Loop Control Basics
  - PID
  - Interfacing of Actuator
 
-### B-8 Safety and Isolation <!-- omit in toc -->
+### B-9 Safety and Isolation <!-- omit in toc -->
  - Electrical Safety Standards
  - Current Limits
  - Isolation
@@ -164,7 +171,7 @@ Design and development of **electrical systems** for biomedical devices, encompa
  - Water and Fluid Ingress Protection
  - Mechanical Shock Protection
 
-### B-9 Test and Debugging <!-- omit in toc -->
+### B-10 Test and Debugging <!-- omit in toc -->
  - Multimeter, Oscilloscope, Function Generator, Programmable Power Supply
  - Test Protocol and Test Points
  - In Circuit Debugging
@@ -311,7 +318,7 @@ Design, analysis, and fabrication of **mechanical systems** for biomedical appli
  - Free Body Diagrams and Calculations
  - Stress, Strain, Deformation
  - Factor of Safety and Fatigue
- - Simple Beam, Truss, shaft Loading
+ - Simple Beam, Truss, Shaft Loading
  - Buckling, Torsion in slender elements
 
 ### D-10 Finite Element Analysis <!-- omit in toc -->
